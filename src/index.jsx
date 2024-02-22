@@ -9,6 +9,8 @@ const root = createRoot(document.getElementById("root"))
 
 root.render(
     <Router>
-        <Main />
+        <ThemeProvider>
+            <Main />
+        </ThemeProvider>
     </Router>
-    )
+)

@@ -1,7 +1,33 @@
-.light-theme {
-    background-color: #ffffff;
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.dark-theme {
-    background-color: #222222;
+.light {
+    background-color: #eeeeee;
+    color: #222222;
 }
+
+.dark {
+    background-color: #222222;
+    color: #eeeeee;
+}
+
+.high-contrast-light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.high-contrast-dark {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.overlay {
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }

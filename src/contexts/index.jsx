@@ -6,8 +6,9 @@ export const ThemeProvider = ({ children }) => {
 
     const [theme, setTheme] = useState("light")
 
-    const switchTheme = () => {
-        setTheme((theme === "light") ? "dark" : "light")
+    const switchTheme = (newTheme) => {
+        localStorage.setItem('theme', newTheme)
+        setTheme(newTheme)
     }
 
     return(
